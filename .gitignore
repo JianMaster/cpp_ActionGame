@@ -37,6 +37,7 @@
 *.exe
 *.out
 *.app
+out/
 
 # Build directories
 build/
@@ -58,6 +59,8 @@ compile_commands.json
 *.swp
 
 # vcpkg
+*.vs/
+*.vscode/
 vcpkg_installed/
 
 # debug information files
